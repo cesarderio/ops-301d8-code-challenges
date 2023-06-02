@@ -12,6 +12,15 @@
 
 # Main
 
+
+# Check if script is running with root privileges
+if [[ $EUID -ne 0 ]]; then
+    # Add sudo
+    sudo bash "$0"
+    exit 0
+fi
+
+
 # Prompts user for input directory path.
 read -p "Enter your target directory path: " directory
 

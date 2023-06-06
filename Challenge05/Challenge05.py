@@ -10,32 +10,44 @@
 import os
 # import subprocess
 
-# Declare Functions
 # function to execute command
 def Xacute(command):
     stream = os.popen(command)
     output = stream.read()
     return output.strip()
 
-# Declare Variables
-# variables for commands whoami, ip and lshw
-whoami = Xacute('whoami')
-
-ip = Xacute('ip a')
-
-lshw = Xacute('lshw -short')
+output_file = '/Desktop/PyBash_output.txt'
+with open(output_file, 'a') as file:
 
 
-# Main
+    # Variable for command
+    whoami = Xacute('whoami')
+    # Command and description of command
+    print("Output of 'whoami':")
+    print(whoami)
+    # Save output to file on desktop
+    file.write("Output of 'whoami':\n")
+    file.write("\n\n")
+    file.write(whoami)
 
-# Commands and description of commands
-print("Output of 'whoami':")
-print(whoami)
+    # Variable for command
+    ip = Xacute('ip a')
+    # Commands and description of commands
+    print("\nOutput of 'ip a':")
+    print(ip)
+    # Save output to file on desktop
+    file.write("Output of 'ip a':\n")
+    file.write(ip)
+    file.write("\n\n")
 
-print("\nOutput of 'ip a':")
-print(ip)
-
-print("\nOutput of 'lshw -short':")
-print(lshw)
+    # Variable for command
+    lshw = Xacute('lshw -short')
+    # Commands and description of commands
+    print("\nOutput of 'lshw -short':")
+    print(lshw)
+    # Save output to file on desktop
+    file.write("Output of 'lshw -short':\n")
+    file.write(lshw)
+    file.write("\n\n")
 
 # End

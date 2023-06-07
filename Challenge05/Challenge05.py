@@ -16,11 +16,9 @@ def Xacute(command):
     output = stream.read()
     return output.strip()
 
-
-
 # home directory of current user
 home_dir = os.path.expanduser('~')
-output_file = os.path.join(home_dir, 'Desktop', 'PyBash_output.txt')
+output_file = os.path.join(home_dir, 'PyBash_output.txt')
 
 # Check file exists
 if not os.path.exists(output_file):

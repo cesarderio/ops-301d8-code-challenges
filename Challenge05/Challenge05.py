@@ -16,7 +16,13 @@ def Xacute(command):
     output = stream.read()
     return output.strip()
 
+
+
 output_file = '/Desktop/PyBash_output.txt'
+# Check file exists
+if not os.path.exists(output_file):
+    open(output_file, 'w').close()
+
 with open(output_file, 'a') as file:
 
     # Variable for command

@@ -19,7 +19,6 @@ def Xacute(command):
 output_file = '/Desktop/PyBash_output.txt'
 with open(output_file, 'a') as file:
 
-
     # Variable for command
     whoami = Xacute('whoami')
     # Command and description of command

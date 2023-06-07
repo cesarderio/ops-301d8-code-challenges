@@ -29,33 +29,33 @@ with open(output_file, 'a') as file:
     # Variable for command
     whoami = Xacute('whoami')
     # Command and description of command
-    print("Output of 'whoami':")
+    print("Output of 'whoami' command:")
     print()
     print(whoami)
     # Save output to file on desktop
-    file.write("Output of 'whoami':\n")
+    file.write("Output of 'whoami' command:\n")
     file.write("\n\n")
     file.write(whoami)
 
     # Variable for command
     ip = Xacute('ip a')
     # Commands and description of commands
-    print("\nOutput of 'ip a':")
+    print("\nOutput of 'ip a' command:")
     print()
     print(ip)
     # Save output to file on desktop
-    file.write("Output of 'ip a':\n")
+    file.write("Output of 'ip a' command:\n")
     file.write(ip)
     file.write("\n\n")
 
     # Variable for command
     lshw = Xacute('lshw -short')
     # Commands and description of commands
-    print("\nOutput of 'lshw -short':")
+    print("\nOutput of 'lshw -short' command:")
     print()
     print(lshw)
     # Save output to file on desktop
-    file.write("Output of 'lshw -short':\n")
+    file.write("Output of 'lshw -short' command:\n")
     file.write(lshw)
     file.write("\n\n")
 

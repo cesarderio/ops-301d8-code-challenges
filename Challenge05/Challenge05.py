@@ -30,6 +30,7 @@ with open(output_file, 'a') as file:
     whoami = Xacute('whoami')
     # Command and description of command
     print("Output of 'whoami':")
+    print()
     print(whoami)
     # Save output to file on desktop
     file.write("Output of 'whoami':\n")
@@ -40,6 +41,7 @@ with open(output_file, 'a') as file:
     ip = Xacute('ip a')
     # Commands and description of commands
     print("\nOutput of 'ip a':")
+    print()
     print(ip)
     # Save output to file on desktop
     file.write("Output of 'ip a':\n")
@@ -50,6 +52,7 @@ with open(output_file, 'a') as file:
     lshw = Xacute('lshw -short')
     # Commands and description of commands
     print("\nOutput of 'lshw -short':")
+    print()
     print(lshw)
     # Save output to file on desktop
     file.write("Output of 'lshw -short':\n")

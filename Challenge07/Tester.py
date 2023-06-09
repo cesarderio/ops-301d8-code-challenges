@@ -104,7 +104,6 @@ for distro in linux_distros:
 #     index = int(input("Enter the index to insert the distribution at: "))
 #     linux_distros.insert(index, distro_name)
 
-
 # print()
 # # - Remove an element from the list
 # # linux_distros.remove("Fedora")
@@ -118,7 +117,6 @@ for distro in linux_distros:
 #     else:
 #         print(f"The distribution '{distro_name}' is not in the list.")
 
-
 # # - Remove and return the last element from the list
 # # last_element = linux_distros.pop()
 # user_input = input("Would you like to remove the last element from the list? (y/n): ")
@@ -130,7 +128,6 @@ for distro in linux_distros:
 #         print("The list is empty.")
 # else:
 #     print("No changes made to the list.")
-
 
 # print()
 
@@ -144,8 +141,6 @@ for distro in linux_distros:
 # else:
 #     print("No changes made to the list.")
 
-
-
 # print()
 # # - Sort the list in ascending order
 # # linux_distros.sort()
@@ -158,15 +153,10 @@ for distro in linux_distros:
 # else:
 #     print("No changes made to the list.")
 
-
-
-
 # print()
 # print("Current list of Linux Distributions:")
 # for distro in linux_distros:
 #     print(distro + "OS")
-
-
 
 # print()
 # # copy the list
@@ -185,8 +175,8 @@ for distro in linux_distros:
 
 
 
+print()
 
-# Stretch goals
 commands = [
     "append",
     "clear",

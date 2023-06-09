@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 
+def main_menu():
+    print("Select a command:")
+    print()
+    for i, command in enumerate(commands):
+        print(f"{i + 1}. {command}")
 
-# - Assign to a variable a list of ten string elements.
-linux_distros = ['Arch', 'Debian','Elementary', 'Fedora', 'Kali', 'Mint', 'Parrot','Pop', 'Ubuntu', 'Zorin']
+linux_distros = ['Arch', 'Debian', 'Elementary', 'Fedora', 'Kali', 'Mint', 'Parrot', 'Pop', 'Ubuntu', 'Zorin']
 
 print("List of Linux Distributions:")
 for distro in linux_distros:
     print(distro + " OS")
-
-
-print()
 
 commands = [
     "append",
@@ -27,13 +28,8 @@ commands = [
 
 commands.sort()  # Sort the commands in alphabetical order
 
-print("Select a command:")
-print()
-for i, command in enumerate(commands):
-    print(f"{i + 1}. {command}")
-
-print()
 while True:
+    main_menu()
     print()
     user_input = input("Enter the number of the command you want to execute (or 'q' to quit): ")
     if user_input.lower() == "q":

@@ -57,12 +57,14 @@ while True:
                 print(distro + " OS")
         elif command == "clear":
             linux_distros.clear()
+            print()
             print("List has been cleared.")
         elif command == "copy":
             file_path = "Linux_List.txt"
             with open(file_path, "w") as file:
                 for distro in linux_distros:
                     file.write(distro + " OS\n")
+            print()
             print(f"List copied to '{file_path}'.")
         elif command == "count":
             distro_name = input("Enter the name of the distribution: ")

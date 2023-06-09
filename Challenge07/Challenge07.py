@@ -108,7 +108,7 @@ commands = [
     "last",
     "remove",
     "reverse",
-    "delete file",
+    "delete file"
 ]
 
 commands.sort()  # Sort the commands in alphabetical order

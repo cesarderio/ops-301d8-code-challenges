@@ -32,6 +32,7 @@ print()
 print("Numbers six to ten on the list of Linux Distributions: ")
 for distro in linux_distros[5:10]:
     print(distro + " OS")
+print()
 
 # - Change the value of the seventh element to "onion".
 # Linux_Distros[5] = "MX"

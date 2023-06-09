@@ -16,6 +16,10 @@ def add_task():
     tasks.append(task)
     save_tasks()
     print("Task added successfully!")
+    print()
+    print("Tasks:")
+    for index, task in enumerate(tasks, start=1):
+        print(f"{index}. {task}")
 
 # view all the tasks
 def view_tasks():

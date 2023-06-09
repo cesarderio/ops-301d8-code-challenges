@@ -213,7 +213,11 @@ while True:
             linux_distros.append(distro_name)
         elif command == "ascending":
             linux_distros.sort()
-            print("The list has been sorted in ascending order.")
+            print()
+            print("Linux Distributions sorted in ascending order:")
+            print()
+            for distro in linux_distros:
+                print(distro + "OS")
         elif command == "clear":
             linux_distros.clear()
             print("List cleared.")

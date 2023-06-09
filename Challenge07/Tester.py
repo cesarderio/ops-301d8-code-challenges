@@ -67,17 +67,27 @@ while True:
             print()
             print(f"List copied to '{file_path}'.")
         elif command == "count":
+            print()
             distro_name = input("Enter the name of the distribution: ")
             count_distro = linux_distros.count(distro_name)
+            print()
             print(f"The distribution '{distro_name}' appears {count_distro} times in this list.")
         elif command == "extend":
+            print()
             additional_distros = input("Enter the names of the distributions to add (comma-separated): ")
             distro_list = additional_distros.split(",")
             linux_distros.extend(distro_list)
+            print()
+            print("Updated list of Linux Distributions:")
+            print()
+            for distro in linux_distros:
+                print(distro + " OS")
         elif command == "index":
+            print()
             distro_name = input("Enter the name of the distribution to find the index for: ")
             try:
                 index_element = linux_distros.index(distro_name)
+                print()
                 print(f"The distribution '{distro_name}' is found at index {index_element}.")
             except ValueError:
                 print(f"The distribution '{distro_name}' was not found.")
@@ -85,16 +95,32 @@ while True:
             distro_name = input("Enter the name of the distribution to insert: ")
             index = int(input("Enter the index to insert the distribution at: "))
             linux_distros.insert(index, distro_name)
+            print()
+            print("Updated list of Linux Distributions:")
+            print()
+            for distro in linux_distros:
+                print(distro + " OS")
         elif command == "last":
             last_element = linux_distros[-1]
+            print()
             print(f"The last element of the list is '{last_element}'.")
         elif command == "remove":
+            print()
             distro_name = input("Enter the name of the distribution to remove: ")
             if distro_name in linux_distros:
                 linux_distros.remove(distro_name)
+                print()
                 print(f"The distribution '{distro_name}' has been removed from the list.")
+                print()
+                for distro in linux_distros:
+                  print(distro + " OS")
             else:
+                print()
                 print(f"The distribution '{distro_name}' is not in the list.")
         elif command == "reverse":
             linux_distros.reverse()
-            print("The list has been reversed.")
+            print()
+            print("The list of Linux distributions in reverse order:")
+            print()
+            for distro in linux_distros:
+                print(distro + " OS")

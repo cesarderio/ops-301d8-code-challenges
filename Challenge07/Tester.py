@@ -179,15 +179,15 @@ print()
 
 # Stretch goals
 commands = [
-    "append list",
-    "ascending sort",
-    "clear list",
-    "copy list",
+    "append",
+    "ascending",
+    "clear",
+    "copy",
     "count",
-    "extend/add",
+    "extend",
     "index",
-    "insert @",
-    "last index",
+    "insert",
+    "last",
     "remove",
     "reverse",
 ]

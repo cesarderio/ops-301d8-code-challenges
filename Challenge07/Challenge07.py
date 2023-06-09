@@ -68,6 +68,8 @@ Linux_Distros.reverse()
 Linux_Distros.sort()
 
 print()
-print("Updated list of Linux Distributions:", Linux_Distros)
+print("Updated list of Linux Distributions:")
+for distro in Linux_Distros:
+    print(distro + "OS")
 
 # End

@@ -8,6 +8,7 @@ def show_menu():
     print("3. Mark task as complete")
     print("4. Delete task")
     print("5. Exit")
+    print()
 
 # add a new task
 def add_task():

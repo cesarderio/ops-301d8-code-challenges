@@ -38,9 +38,9 @@ print()
 # Linux_Distros[5] = "MX"
 linux_distros[6] = "onion"
 
-print("Updated list of Linux Distributions:")
-for distro in linux_distros:
-    print(distro + "OS")
+# print("Updated list of Linux Distributions:")
+# for distro in linux_distros:
+#     print(distro + "OS")
 
 
 # # Stretch goals

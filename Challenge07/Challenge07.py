@@ -14,9 +14,10 @@
 Linux_Distros = ['Arch', 'Debian','Elementary', 'Fedora', 'Kali', 'Mint', 'Parrot','Pop', 'Ubuntu', 'Zorin']
 
 # Main
+print()
 # - Print the fourth element of the list.
 print("Number four on the list of Linux Distributions:", Linux_Distros[3], "OS")
-
+print()
 # - Print the sixth through tenth element of the list.
 print("Numbers six to ten on the list of Linux Distributions:")
 for distro in Linux_Distros[5:10]:
@@ -26,6 +27,47 @@ for distro in Linux_Distros[5:10]:
 # Linux_Distros[5] = "MX"
 Linux_Distros[6] = "onion"
 
+# print("Updated list of Linux Distributions:", Linux_Distros)
+
+
+
+# Stretch goals
+print()
+# append
+Linux_Distros.append("CentOS")
+
+# clear the list
+# Linux_Distros.clear()
+
+# copy the list
+distros_copy = Linux_Distros.copy()
+
+# count occurences of element
+count_element = Linux_Distros.count("Ubuntu")
+
+# exten/add list
+extra_distros = ["Gentoo", "Red Hat"]
+Linux_Distros.extend(extra_distros)
+
+# index of element
+index_element = Linux_Distros.index("Mint")
+
+# insert at index
+Linux_Distros.insert(3, "Cent")
+
+# - Remove an element from the list
+Linux_Distros.remove("Fedora")
+
+# - Remove and return the last element from the list
+last_element = Linux_Distros.pop()
+
+# - Reverse the order of the list
+Linux_Distros.reverse()
+
+# - Sort the list in ascending order
+Linux_Distros.sort()
+
+print()
 print("Updated list of Linux Distributions:", Linux_Distros)
 
 # End

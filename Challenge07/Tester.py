@@ -242,4 +242,17 @@ if command_index >= 0 and command_index < len(commands):
             print(f"The distribution '{distro_name}' has been removed from the list.")
         else:
             print(f"The distribution '{distro_name}' is not in the list.")
-    elif
+    elif command == "last":
+        user_input = input("Do you want to remove the last element? (y/n): ")
+        if user_input.lower() == "y":
+            last_element = linux_distros.pop()
+            print(f"The last element '{last_element}' has been removed from the list.")
+    elif command == "reverse":
+        linux_distros.reverse()
+        print("The list has been reversed.")
+    elif command == "ascending":
+        linux_distros.sort()
+        print("The list has been sorted in ascending order.")
+    elif command == "copy":
+        linux_distros_copy = linux_distros.copy()
+        print("A copy of the list has been created.")

@@ -54,7 +54,7 @@ if user_input.lower() == "y":
     distro_name = input("Enter the name of the distribution you would like to add to the list: ")
     linux_distros.append(distro_name)
 
-
+print()
 # clear the list
 # Linux_Distros.clear()
 user_input = input("Would you like to clear the list? (y/n): ")
@@ -62,7 +62,7 @@ if user_input.lower() == "y":
     linux_distros.clear()
     print("List cleared.")
 
-
+print()
 # count occurences of element
 # count_element = Linux_Distros.count("Ubuntu")
 user_input = input("Would you like to count the occurrences of a distribution on this list? (y/n): ")
@@ -71,7 +71,7 @@ if user_input.lower() == "y":
     count_distro = linux_distros.count(distro_name)
     print(f"The distribution '{distro_name}' appears {count_distro} times in this list.")
 
-
+print()
 # extend/add list
 # extra_distros = ["Gentoo", "Red Hat"]
 # Linux_Distros.extend(extra_distros)
@@ -81,6 +81,7 @@ if user_input.lower() == "y":
     distro_list = additional_distros.split(",")
     linux_distros.extend(distro_list)
 
+print()
 # index of element
 # index_element = linux_distros.index("Mint")
 # index of element
@@ -93,6 +94,8 @@ if user_input.lower() == "y":
     except ValueError:
         print(f"The distribution '{distro_name}' was not found.")
 
+print()
+print()
 # insert at index
 # linux_distros.insert(3, "Cent")
 user_input = input("Do you want to insert a distribution at a specific index? (y/n): ")
@@ -102,6 +105,7 @@ if user_input.lower() == "y":
     linux_distros.insert(index, distro_name)
 
 
+print()
 # - Remove an element from the list
 # linux_distros.remove("Fedora")
 # remove an element from the list
@@ -131,6 +135,7 @@ for distro in linux_distros:
 
 
 
+print()
 # copy the list
 # distros_copy = linux_distros.copy()
 user_input = input("Would you like to make a copy of this list? (y/n): ")

@@ -176,6 +176,8 @@ for distro in linux_distros:
 
 
 print()
+
+# Stretch goals
 commands = [
     "append",
     "ascending",
@@ -186,7 +188,6 @@ commands = [
     "index",
     "insert",
     "last",
-    "quit",
     "remove",
     "reverse",
 ]
@@ -237,8 +238,8 @@ while True:
             index = int(input("Enter the index to insert the distribution at: "))
             linux_distros.insert(index, distro_name)
         elif command == "last":
-            last_element = linux_distros.pop()
-            print(f"The last element '{last_element}' has been removed from the list.")
+            last_element = linux_distros[-1]
+            print(f"The last element of the list is '{last_element}'.")
         elif command == "remove":
             distro_name = input("Enter the name of the distribution to remove: ")
             if distro_name in linux_distros:

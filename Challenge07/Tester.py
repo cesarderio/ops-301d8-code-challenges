@@ -195,9 +195,11 @@ commands = [
 commands.sort()  # Sort the commands in alphabetical order
 
 print("Select a command:")
+print()
 for i, command in enumerate(commands):
     print(f"{i + 1}. {command}")
 
+print()
 while True:
     user_input = input("Enter the number of the command you want to execute (or 'q' to quit): ")
     if user_input.lower() == "q":

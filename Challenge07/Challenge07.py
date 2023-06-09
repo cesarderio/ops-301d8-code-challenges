@@ -32,7 +32,7 @@ Linux_Distros[6] = "onion"
 
 
 # Stretch goals
-print()
+
 # append
 Linux_Distros.append("CentOS")
 
@@ -45,9 +45,9 @@ distros_copy = Linux_Distros.copy()
 # count occurences of element
 count_element = Linux_Distros.count("Ubuntu")
 
-# exten/add list
-extra_distros = ["Gentoo", "Red Hat"]
-Linux_Distros.extend(extra_distros)
+# extend/add list
+# extra_distros = ["Gentoo", "Red Hat"]
+# Linux_Distros.extend(extra_distros)
 
 # index of element
 index_element = Linux_Distros.index("Mint")

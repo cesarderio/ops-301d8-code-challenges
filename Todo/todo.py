@@ -2,6 +2,7 @@ import os
 
 # display main menu options
 def show_menu():
+    print()
     print("1. Add task")
     print("2. View tasks")
     print("3. Mark task as complete")
@@ -18,8 +19,10 @@ def add_task():
 # view all the tasks
 def view_tasks():
     if not tasks:
+        print()
         print("No tasks found.")
     else:
+        print()
         print("Tasks:")
         for index, task in enumerate(tasks, start=1):
             print(f"{index}. {task}")

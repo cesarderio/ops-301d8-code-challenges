@@ -40,7 +40,7 @@ linux_distros[6] = "onion"
 
 print("Updated list of Linux Distributions:")
 for distro in linux_distros:
-    print(distro + "OS")
+    print(distro + " OS")
 
 
 # # Stretch goals
@@ -179,15 +179,15 @@ print()
 
 # Stretch goals
 commands = [
-    "append",
-    "ascending",
-    "clear",
-    "copy",
+    "append list",
+    "ascending sort",
+    "clear list",
+    "copy list",
     "count",
-    "extend",
+    "extend/add",
     "index",
-    "insert",
-    "last",
+    "insert @",
+    "last index",
     "remove",
     "reverse",
 ]

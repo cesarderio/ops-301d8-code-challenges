@@ -111,7 +111,7 @@ commands = [
     "delete file"
 ]
 
-commands.sort()  # Sort the commands in alphabetical order
+# commands.sort()  # Sort the commands in alphabetical order
 
 while True:
     main_menu()

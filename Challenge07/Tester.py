@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 def main_menu():
+    print()
     print("Select a command:")
     print()
     for i, command in enumerate(commands):

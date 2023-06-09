@@ -108,8 +108,8 @@ if user_input.lower() == "y":
 user_input = input("Do you want to remove a distribution from the list? (y/n): ")
 if user_input.lower() == "y":
     distro_name = input("Enter the name of the distribution to remove: ")
-    if distro_name in Linux_Distros:
-        Linux_Distros.remove(distro_name)
+    if distro_name in linux_distros:
+        linux_distros.remove(distro_name)
         print(f"The distribution '{distro_name}' has been removed from the list.")
     else:
         print(f"The distribution '{distro_name}' is not in the list.")

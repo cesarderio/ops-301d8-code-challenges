@@ -38,15 +38,16 @@ print()
 # Linux_Distros[5] = "MX"
 linux_distros[6] = "onion"
 
-# print("Updated list of Linux Distributions:")
-# for distro in Linux_Distros:
-#     print(distro + "OS")
+print("Updated list of Linux Distributions:")
+for distro in linux_distros:
+    print(distro + "OS")
 
 
 # Stretch goals
 # I have my basic stretch goals commented out for each below. 
 # The extra user prompts and things were done with the help of chatGPT
 
+print()
 # append
 # Linux_Distros.append("CentOS")
 user_input = input("Would you like to add a distribution? (y/n): ")
@@ -95,10 +96,9 @@ if user_input.lower() == "y":
         print(f"The distribution '{distro_name}' was not found.")
 
 print()
-print()
 # insert at index
 # linux_distros.insert(3, "Cent")
-user_input = input("Do you want to insert a distribution at a specific index? (y/n): ")
+user_input = input("Would you like to insert a distribution at a specific index? (y/n): ")
 if user_input.lower() == "y":
     distro_name = input("Enter the name of the distribution to insert: ")
     index = int(input("Enter the index to insert the distribution at: "))
@@ -109,7 +109,7 @@ print()
 # - Remove an element from the list
 # linux_distros.remove("Fedora")
 # remove an element from the list
-user_input = input("Do you want to remove a distribution from the list? (y/n): ")
+user_input = input("Would you like to remove a distribution from the list? (y/n): ")
 if user_input.lower() == "y":
     distro_name = input("Enter the name of the distribution to remove: ")
     if distro_name in linux_distros:
@@ -120,16 +120,49 @@ if user_input.lower() == "y":
 
 
 # - Remove and return the last element from the list
-last_element = linux_distros.pop()
+# last_element = linux_distros.pop()
+user_input = input("Would you like to remove the last element from the list? (y/n): ")
+if user_input.lower() == "y":
+    if len(linux_distros) > 0:
+        last_element = linux_distros.pop()
+        print(f"The last element '{last_element}' has been removed from the list.")
+    else:
+        print("The list is empty.")
+else:
+    print("No changes made to the list.")
 
-# - Reverse the order of the list
-linux_distros.reverse()
-
-# - Sort the list in ascending order
-linux_distros.sort()
 
 print()
-print("Updated list of Linux Distributions:")
+
+# - Reverse the order of the list
+# linux_distros.reverse()
+user_input = input("Would you like to view/display the list in reverse order? (y/n): ")
+if user_input.lower() == "y":
+    print("List of Linux Distributions in reverse order:")
+    for distro in reversed(linux_distros):
+        print(distro + "OS")
+else:
+    print("No changes made to the list.")
+
+
+
+print()
+# - Sort the list in ascending order
+# linux_distros.sort()
+# - Sort the list in ascending order
+user_input = input("Would you like to view/display the list in ascending order? (y/n): ")
+if user_input.lower() == "y":
+    print("List of Linux Distributions in ascending order:")
+    for distro in sorted(linux_distros):
+        print(distro + "OS")
+else:
+    print("No changes made to the list.")
+
+
+
+
+print()
+print("Current list of Linux Distributions:")
 for distro in linux_distros:
     print(distro + "OS")
 

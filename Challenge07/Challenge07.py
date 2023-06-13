@@ -46,6 +46,17 @@ linux_distros[6] = "onion"
 # # I have my basic stretch goals commented out or over on the Tester.py file. 
 # # The extra user prompts and things were done with the help of chatGPT
 
+
+
+# Tuple
+yo_tuple = (1, 2, 3, 4, 5)
+
+# Set
+yo_set = {1, 2, 3, 4, 5}
+
+# Dictionary
+yo_dicto = {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
+
 # # append
 # # Linux_Distros.append("CentOS")
 
@@ -215,5 +226,8 @@ while True:
                 print(f"File '{file_path}' has been deleted.")
             else:
                 print(f"File '{file_path}' does not exist.")
+
+
+
 
 # End

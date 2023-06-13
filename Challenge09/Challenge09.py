@@ -11,19 +11,18 @@ import os
 
 # Declaration of variables
 
-
-# Main
-
-# Open the file in write mode to create a new file
+# Open file in write mode to create new file
 file_name = "Code_Challenge_class10.txt"
 file = open(file_name, "w")
 
-# Append three lines to the file
+# Main
+
+# Add/Append three lines to file
 file.write("Welcome\n")
 file.write("to the\n")
 file.write("Danger Zone!\n")
 
-# Close the file
+# Close file
 file.close()
 
 # Open the file in read mode
@@ -37,14 +36,10 @@ print("First line:", lines[0])
 print("Second line:", lines[1])
 print("Third line:", lines[2])
 
-# Close the file
+# Close file
 file.close()
 
-# Delete the file
-import os
+# Delete file
 os.remove(file_name)
-
-
-
 
 # End

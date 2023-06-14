@@ -1,0 +1,9 @@
+Time spent by normal processes executing in user mode: 832763.22 seconds
+Time spent by processes executing in kernel mode: 2026562.57 seconds
+Time when the system was idle: 7970114.8 seconds
+Time spent by priority processes executing: 0 seconds
+Time spent waiting for I/O to complete: 0 seconds
+Time spent for servicing hardware interrupts: 0 seconds
+Time spent for servicing software interrupts: 0 seconds
+Time spent by other operating systems: 0 seconds
+Time spent running a virtual CPU for guest operating systems: 0 seconds

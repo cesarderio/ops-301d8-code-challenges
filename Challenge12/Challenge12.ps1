@@ -1,7 +1,13 @@
+# Script Name:                  Powershell AD Automation
+# Author:                       Raphael Chookagian
+# Date of latest revision:      06/16/2023
+# Purpose:                      * Write a Powershell script that adds the below person to AD.
 
+  # * Franz Ferdinand is the TPS Reporting Lead at GlobeX USA in Springfield, OR office. Franz is part of the TPS Department. Franz’s email is ferdi@GlobeXpower.com.
 
-
-
+# Declare Variables
+# Declare Functions
+# Create
 
 # Set user details
 $firstName = "Franz"
@@ -44,6 +50,7 @@ $userExtension.Department = $department
 $userExtension.PhysicalDeliveryOfficeName = $office
 $userExtension.Save()
 
+# Main
 # Output the user's details
 Write-Host "User created successfully:"
 Write-Host "--------------------------"
@@ -55,3 +62,25 @@ Write-Host "Department: $department"
 Write-Host "Company: $company"
 Write-Host "Office: $office"
 Write-Host "Password: Passw0rd123"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# End
+

@@ -1,17 +1,6 @@
-# ops-301d8-code-challenges
+# ops-301d8-code-challenges 🛡️
 
-This repository will contain code challenges for the Ops-301d8 course.
-
-  | Ops | Challenge | Links |
-  |:----------------------:|:-----------------------:|:----------------------:|
-  | [Challenge01](./Challenge01/)  |  [Challenge02](./Challenge02/)  |  [Challenge03](./Challenge03/) |
-  | [Challenge04](./Challenge04/)  |  [Challenge05](./Challenge05/)  |  [Challenge06](./Challenge06/) |
-  | [Challenge07](./Challenge07/)  |  [Challenge08](./Challenge08/)  |  [Challenge09](./Challenge09/) |
-  | [Challenge10](./Challenge10/)  |   [Challenge11](./Challenge11/)   |  [Challenge12](./Challenge12/) |
-
-# ops-401d8-code-challenges 🛡️
-
-A collection of code challenges tailored for the Ops-401d8 cybersecurity course.
+A collection of code challenges tailored for the Ops-301d8 cybersecurity course.
 
 ![Banner Image](./assets/hood.png)
 
@@ -23,8 +12,8 @@ Dive deep into the world of cybersecurity with these hands-on code challenges. E
 
   | Ops | Challenge | Links |
   |:----------------------:|:-----------------------:|:----------------------:|
-  | [Challenge_Lab01](./Challenge_Lab01/)  |  [Challenge_Lab04](./Challenge_Lab04/)  |  [Challenge_Lab05](./Challenge_Lab05/) |
   | [Challenge01](./Challenge01/)  |  [Challenge02](./Challenge02/)  |  [Challenge03](./Challenge03/) |
+  | [Challenge04](./Challenge04/)  |  [Challenge05](./Challenge05/)  |  [Challenge06](./Challenge06/) |
   | [Challenge07](./Challenge07/)  |  [Challenge08](./Challenge08/)  |  [Challenge09](./Challenge09/) |
   | [Challenge10](./Challenge10/)  |   [Challenge11](./Challenge11/)   |  [Challenge12](./Challenge12/) |
 

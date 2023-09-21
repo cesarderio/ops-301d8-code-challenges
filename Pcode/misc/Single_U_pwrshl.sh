@@ -1,8 +1,4 @@
 
-
-
-
-
 # Set user details
 $firstName = "Franz"
 $lastName = "Ferdinand"
